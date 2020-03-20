@@ -1,0 +1,253 @@
+section#blog p.text {
+  display: block;
+  clear: both;
+  padding-top: 30px;
+}
+
+section#blog {
+  padding: 60px 0;
+  box-shadow: -2px 1px 10px #88bb20;
+}
+
+@media screen and (min-width: 760px) {
+  section#blog div h1 {
+    font-size: 64px;
+    font-family: initial;
+    color: #404040;
+    font-family: "Squada One", cursive;
+    position: relative;
+    cursor: pointer;
+    line-height: 120px;
+  }
+
+  section#blog div h1:before {
+    position: absolute;
+    transition: all.5s;
+    content: "";
+    top: 5px;
+    left: -10px;
+    z-index: -1;
+    width: 133px;
+    height: 115px;
+    border: 3px solid #404040;
+  }
+
+  section#blog div h1:hover:before {
+    width: 320px;
+  }
+
+  section#blog div h1 span {
+    font-family: "Squada One", cursive;
+    text-transform: capitalize;
+    color: red;
+    font-size: 81px;
+    font-weight: 400;
+    display: block;
+  }
+
+  section#blog div p {
+    font-size: 15px;
+  }
+
+  section#blog div .blogimg {
+    float: left;
+    width: 170px;
+    height: 230px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+
+  section#blog div p.quotes {
+    background-color: #eee;
+    padding: 30px 50px 30px 50px;
+    font-size: 16px;
+    color: #000;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    position: relative;
+  }
+
+  section#blog div ul {
+    border-left: 5px solid #404040;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  section#blog div ul li {
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    position: relative;
+  }
+
+  section#blog div ul li a {
+    padding: 10px 15px;
+    color: #404040;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 10px;
+    border: 1px solid #404040;
+    border-radius: 2px;
+    margin-top: 10px;
+  }
+
+  section#blog div ul li a:nth-child(2) {
+    background-color: #88bb20;
+    color: #fff;
+  }
+
+  section#BlogDetail {
+    background-color: #404040;
+    clip-path: polygon(50% 0%, 100% 10%, 100% 100%, 0 100%, 0 10%);
+    padding-top: 50px;
+  }
+
+  section#BlogDetail h5 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+    /*font-family: inherit;*/
+  }
+
+  section#BlogDetail h5 span {
+    background-color: #fff;
+    color: #404040;
+    padding: 5px 15px 5px 15px;
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  section#BlogDetail h5 span b {
+    color: red;
+  }
+
+  section#BlogDetail ul.points {
+    margin-top: 20px;
+  }
+
+  section#BlogDetail ul.points li {
+    padding: 10px 10px 10px 60px;
+    position: relative;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+
+  section#BlogDetail ul.points li:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 15px;
+    left: 0;
+    background-color: #fff;
+    filter: blur(6px);
+    transition: all 0.5s;
+  }
+
+  section#BlogDetail ul.points li:hover:before {
+    box-shadow: 0 0 60px 20px red;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  section#blog div h1 {
+    font-family: initial;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+
+  section#blog div h1 span {
+    color: red;
+    font-weight: 600;
+  }
+
+  section#blog div .blogimg {
+    margin-bottom: 20px;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  section#blog div p.quotes {
+    background-color: #eee;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 30px;
+    position: relative;
+  }
+
+  section#blog div ul {
+    border-left: transparent;
+    border-bottom: 3px solid #404040;
+  }
+
+  section#blog div ul li a {
+    padding: 10px;
+    border: 1px solid #88bb20;
+    display: inline-block;
+    margin: 10px 0;
+  }
+
+  section#blog div ul li a:nth-child(2) {
+    background-color: #88bb20;
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  div.footer-box .footer-contact ul.social-links li img {
+    width: 30px;
+    height: 30px;
+  }
+
+  div.footer-box .footer-contact ul.social-links li a span {
+    font-size: 15px;
+    line-height: 12px;
+  }
+
+  div.footer-box .footer-contact ul.social-links li img {
+    margin-right: 5px;
+  }
+
+  .top_header ul.contact li {
+    padding: 5px;
+  }
+
+  section#blog div h1 {
+    font-size: 20px;
+  }
+
+  .top_header ul.contact li,
+  .top_header ul.social li {
+    padding: 6px 12px;
+  }
+
+  .top_header ul.contact {
+    margin-left: 5px;
+  }
+}
+
+.formFooter {
+  display: none !important;
+}
+
+.jotform-form {
+  padding-bottom: 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
