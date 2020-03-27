@@ -1,3 +1,15 @@
+/* NEW CODE */
+
+.pogoSlider-slide h1 {
+  margin-bottom: 16px;
+}
+
+.pogoSlider-slide p {
+  margin-top: 0;
+}
+
+/* OLD CODE */
+
 section#blog p.text {
   display: block;
   clear: both;
