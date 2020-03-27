@@ -1,5 +1,13 @@
 /* NEW CODE */
 
+.color-peach {
+  color: #f68f8d;
+}
+
+.bold {
+  font-weight: 700;
+}
+
 .pogoSlider-slide h1 {
   margin-bottom: 16px;
 }
